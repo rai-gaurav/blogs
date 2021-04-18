@@ -240,7 +240,7 @@ Since there are already plenty of documentation available, I encourage you to lo
 If you look closely the rest of function definition is not much changes from the [previous](https://dev.to/raigaurav/data-visualization-using-amcharts-with-perl-and-mojo-38ff) used javascript. We just wrapped it in react.
 
 The final directory structure is -
-
+```
 📦mojo_react_app
  ┣ 📂etc
  ┃ ┗ 📜input_data.json
@@ -267,7 +267,7 @@ The final directory structure is -
  ┃ ┃ ┗ 📜default.html.ep
  ┣ 📜mojo_react_app.yml
  ┗ 📜README.md
-
+```
 Save it and try to hit 'http://localhost:3000' again. From the user perspective side nothing has changed, you will see the same output as before.
 ![fi7og88vjcasg4ishx45](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/c37jpdr8v8b6wnh0zzmh.PNG)
 
