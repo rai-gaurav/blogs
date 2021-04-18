@@ -62,7 +62,7 @@ We will go ahead and create an app from command line.
 $  mojo generate app MojoApp
 ```
 This command will generate a example application with proper directory structure for a MVC application. Easy peasy
-
+```
 📦mojo_app
  ┣ 📂lib
  ┃ ┣ 📂MojoApp
@@ -81,7 +81,7 @@ This command will generate a example application with proper directory structure
  ┃ ┗ 📂layouts
  ┃ ┃ ┗ 📜default.html.ep
  ┗ 📜mojo_app.yml
-
+```
 Now go inside the dir and try to run this app.
 ```shell
 $ morbo ./script/mojo_app
