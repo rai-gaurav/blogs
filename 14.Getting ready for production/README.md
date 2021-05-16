@@ -405,7 +405,7 @@ I have added comment for better understanding.
 * Next we are installing some tools(e.g. vim). In case you don't want it you can remove those lines. Few notable plugins/tools are - `openssl`(for https), `apache2`, `uwsgi`, `uwsgi-plugin-psgi`(for perl), `libapache2-mod-proxy-uwsgi`(for apache2).
 I have used some version which are specific to ubuntu(18.04), you can update that as per your image or not use at all.
 
-* Next I have installed some dependencies specific to our Mojolicious app. I am using [cpanminus](https://metacpan.org/pod/App::cpanminus) for this. I have added the version number also to get that specific version. There are again multiple way to achieve this. One of them is using `cpanm` from command line as mentioned [here](https://metacpan.org/pod/distribution/App-cpanminus/bin/cpanm) and [here](https://mvp.kablamo.org/dependencies/cpanm/). Another is using [Carton](https://metacpan.org/pod/Carton) which is dependency manager fro Perl(similar to Bundler in Ruby).
+* Next I have installed some dependencies specific to our Mojolicious app. I am using [cpanminus](https://metacpan.org/pod/App::cpanminus) for this. I have added the version number also to get that specific version. There are again multiple way to achieve this. One of them is using `cpanm`(with [cpanfile](https://metacpan.org/pod/distribution/Module-CPANfile/lib/cpanfile.pod)) from command line as mentioned [here](https://metacpan.org/pod/distribution/App-cpanminus/bin/cpanm) and [here](https://mvp.kablamo.org/dependencies/cpanm/). Another is using [Carton](https://metacpan.org/pod/Carton) which is dependency manager for Perl(similar to Bundler in Ruby).
 Since our scope is limited I have used it like that. In big project you may want to follow one of above mentioned approach.
 
 * Next is some Apache specific configuration. We are enabling some modules in Apache. More info at [a2enmod](https://manpages.ubuntu.com/manpages/trusty/man8/a2enmod.8.html).
@@ -504,6 +504,14 @@ I can see the sparkle in your eyes.
 ![One piece](https://data.whicdn.com/images/186559937/original.gif)
 We will look into that in our next section.
 
+# Bonus
+Our good folks at Mojolicious already thought of containers and clouds. Have a look at [Containers](https://docs.mojolicious.org/Mojolicious/Guides/Cookbook#Containers) for more info.
+You can generate `Makefile` and `Dockerfile` for your app using just 2 simple command. Inside your project dir -
+```shell
+mojo generate makefile
+./script/mojo_react_app generate dockerfile
+```
+
 # Honorable Mention -
 https://stackoverflow.com/questions/12127566/an-explanation-of-the-nginx-starman-dancer-web-stack/12134555#12134555
 https://uwsgi-docs.readthedocs.io/en/latest/index.html
@@ -519,6 +527,6 @@ Perl onion logo taken from [here](https://github.com/dnmfarrell/Perl-Icons/blob/
 Mojolicious logo taken from [here](https://github.com/mojolicious/mojo/blob/master/lib/Mojolicious/resources/public/mojo/logo.png)
 OpenAPI logo taken from [here](https://www.openapis.org/news/blogs/2016/07/you-can-get-involved-creating-openapi-specification-and-heres-how/attachment/openapi_pantone)
 uWSGI logo taken from [here](https://www.seekpng.com/ipng/u2t4i1i1y3e6t4q8_official-uwsgi-logo-uwsgi-logo/)
- Docker logo taken from [here](https://www.docker.com/company/newsroom/media-resources)
+Docker logo taken from [here](https://www.docker.com/company/newsroom/media-resources)
 Apache logo taken from [here](https://httpd.apache.org/)
 Ubuntu logo taken from [here](https://design.ubuntu.com/brand/ubuntu-logo/)
