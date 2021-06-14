@@ -1131,7 +1131,7 @@ Similary for ColumnChart
 
 Let's see the action in real time.
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r2m7rtmtqdkozgpejr9i.gif)
+![Alt Text](https://github.com/rai-gaurav/mojo_react_app/blob/main/with_jsx/client/charts.gif)
 
 # Takeaway
 There are certain places where I haven't explained that much. The article is getting too big and there are numerous other places where you get that info. Also my aim was to show the usage of amcharts library in react.js. We have already done the similar thing many times in [past](https://dev.to/raigaurav/data-visualization-using-amcharts-in-react-js-with-mojo-29mh) (if you are following my article). The only difference right now is jsx.
