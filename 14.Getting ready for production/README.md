@@ -501,7 +501,8 @@ What if we say - `make dev` and all the thing got taken cared of.
 Similarly for `make stag` and `make prod`.
 This thing will come handy when you will do the automated deployment using Jenkins or some other ways.
 I can see the sparkle in your eyes.
-![One piece](https://data.whicdn.com/images/186559937/original.gif)
+![One piece](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDdkZDFpNGU0cGh1ZTZhanVobDZhMG83ajE0NzNpdzQ3N3N4NzBlNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UlexC9HXTiNz2/giphy.gif)
+
 We will look into that in our next section.
 
 # Bonus
